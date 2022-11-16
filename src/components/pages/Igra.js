@@ -12,13 +12,14 @@ function Igra() {
   })
 
   return (
-    <div className="App">
+    <div className="App" style={{height: '100vh'}}>
       <Unity 
         style={{
           width: "90%",
           display: "block",
           marginLeft: "auto",
           marginRight: "auto",
+          marginTop: '1%',
         }}
         unityProvider={unityProvider}
       />
