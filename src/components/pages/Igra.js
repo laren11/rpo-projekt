@@ -5,10 +5,10 @@ import { Unity, UnityContext, useUnityContext } from "react-unity-webgl";
 function Igra() {
 
   const { unityProvider } = useUnityContext({
-    loaderUrl: "gameBuild/IgraTest.loader.js",
-    dataUrl: "gameBuild/IgraTest.data.unityweb",
-    frameworkUrl: "gameBuild/IgraTest.framework.js.unityweb",
-    codeUrl: "gameBuild/IgraTest.wasm.unityweb",
+    loaderUrl: "gameBuild/gameBuild.loader.js",
+    dataUrl: "gameBuild/gameBuild.data",
+    frameworkUrl: "gameBuild/gameBuild.framework.js",
+    codeUrl: "gameBuild/gameBuild.wasm",
   })
 
   return (

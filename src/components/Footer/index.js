@@ -12,12 +12,11 @@ export default function Footer() {
       <MDBContainer className='p-4'>
         <MDBRow >
           <MDBCol  lg='12' md='12' className='mb-4 mb-md-0' style={{color: 'white'}}>
-            <h5 className='text-uppercase'>Footer text</h5>
+            <h5 className='text-uppercase'>Thank You!</h5>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias.
-              Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam,
-              est atque cumque eum delectus sint!
+              Thank you for playing our game that we worked hard for. We hope you had fun
+              and will come back to us soon.
             </p>
           </MDBCol>
         </MDBRow>
